@@ -1,3 +1,8 @@
+.header{
+    background-image: url(pexels-ahmed-aqtai-2233416.jpg);
+    background-position: bottom;
+    background-size: 1300px;
+}
 .maintitle
 {
     display: grid;
@@ -7,10 +12,28 @@
     color: rgb(255, 255, 255);
     font-size: 75px;
     font-family: jameel noori nastaleeq;
-    background-color: aqua;
-    background-image: url(pexels-ahmed-aqtai-2233416.jpg);
-    background-position: bottom;
-    background-size: 1300px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    direction: rtl;
+    font-family: jameel noori nastaleeq;
+    font-size: large;
+}
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111111;
 }
 .bodyclassses{
     display: grid;
@@ -47,4 +70,10 @@
     height: 100px;
     border: 1px solid black;
     border-radius: 20px;
+}
+.footerstyle{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    height: 5cm;
+    margin-top: 1cm;
 }
